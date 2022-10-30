@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div>
+        <input id="res">
+    </div>
+    <div class="buttons">
+        <div>
+            <button onclick="clearAll()" id="bigButton" type="reset">C</button>
+            <button onclick="addNumber('.')">.</button>
+            <button onclick="addNumber('/')">/</button>
+        </div>
+        
+        <div>
+            <button onclick="addNumber('7')">7</button>
+            <button onclick="addNumber('8')">8</button>
+            <button onclick="addNumber('9')">9</button>
+            <button onclick="addNumber('*')">*</button>
+        </div>
+        <div>
+            <button onclick="addNumber('4')">4</button>
+            <button onclick="addNumber('5')">5</button>
+            <button onclick="addNumber('6')">6</button>
+            <button onclick="addNumber('-')">-</button>
+        </div>
+        <div>
+            <button onclick="addNumber('1')">1</button>
+            <button onclick="addNumber('2')">2</button>
+            <button onclick="addNumber('3')">3</button>
+            <button onclick="addNumber('+')">+</button>
+        </div>
+        <div>
+            <button onclick="addNumber('+-')">&#177;</button>
+            <button onclick="addNumber('0')">0</button>
+            <button id="bigButton" onclick="result()">=</button>
+        </div>
+    </div>
+    <script src="dist/index.js"></script>
+    <script src="dist/back.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="kalkStyle.css">
+	<title>Calculator</title>
+</head>
+<body>
+	<article class="calc">
+		<output id="helpLabel" class="calc_operation"></output>
+		<input id="field" type="number" class="calc_result">
+		
+		<button id="n7" type="button" class="calc_btn" onclick="n7()">7</button>
+		<button id="n8" type="button" class="calc_btn" onclick="n8()">8</button>
+		<button id="n9" type="button" class="calc_btn" onclick="n9()">9</button>
+		<button id="opPlus" type="button" class="calc_btn calc_btn_operator" onclick="Plus()">+</button>
+
+		<button id="n4" type="button" class="calc_btn" onclick="n4()">4</button>
+		<button id="n5" type="button" class="calc_btn" onclick="n5()">5</button>
+		<button id="n6" type="button" class="calc_btn" onclick="n6()">6</button>
+		<button id="opMinus" type="button" class="calc_btn calc_btn_operator" onclick="Minus()">-</button>
+
+		<button id="n1" type="button" class="calc_btn" onclick="n1()">1</button>
+		<button id="n2" type="button" class="calc_btn" onclick="n2()">2</button>
+		<button id="n3" type="button" class="calc_btn" onclick="n3()">3</button>
+		<button id="opMultiply" type="button" class="calc_btn calc_btn_operator" onclick="Multiply()">*</button>
+
+		<button id="n0" type="button" class="calc_btn" onclick="test()">0</button>
+		<button id="n." type="button" class="calc_btn" onclick="nDot()">.</button>
+		<button id="n00" type="button" class="calc_btn" onclick="n00()">00</button>
+		<button id="opDevide" type="button" class="calc_btn calc_btn_operator" onclick="Divide()">/</button>
+
+		<button id="opClear" type="button" class="calc_btn calc_btn_clear" onclick="Clear()">DEL</button>
+		<button id="opEqual" type="button" class="calc_btn calc_btn_equal" onclick="Equal()">=</button>
+	</article>
+	<script src="dist/index.js" ></script>
+</body>
+</html> -->

@@ -1,0 +1,36 @@
+body{	
+    font-family: arial,sans-serif;
+	padding-top: 50px;
+	text-align: center;	
+	background: #D5E8F2;
+}
+
+button{
+	background: none;
+	border-width: 1px;		
+	border: none;
+	background: #B7C8D1;
+	font-size: 200%;
+	padding: 10px;
+	margin: 10px;
+	height: 60px;
+	width: 60px;
+}
+
+#bigButton{
+	height: 60px;
+	width: 145px;	
+}
+
+input{	
+	background: #D5E8F2;
+	width: 290px;
+	font-size: 200%;
+	padding: 10px;
+	margin: 10px;
+	border-width: 1px;	
+}
+
+button:hover{
+	background: #9FADB5;
+}
